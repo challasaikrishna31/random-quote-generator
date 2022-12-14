@@ -23,12 +23,12 @@ function App() {
 
   return (
     <div className="app">
-      <div className="card">
+      <button className="card" onClick={fetchAdvice}  >
         <h1 className="heading">{advice}</h1>
         <button className="button" onClick={fetchAdvice}>
-          <span>GIVE ME NEW ADVICE!</span>
+          <span>GIVE ME NEW Message!</span>
         </button>
-      </div>
+      </button>
     </div>
   );
 }
