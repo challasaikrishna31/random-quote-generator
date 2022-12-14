@@ -20,6 +20,9 @@ function App() {
         console.log(error);
       });
   };
+  const newAPIGet=()=>{
+    return "newapi"
+  }
 
   return (
     <div className="app">
